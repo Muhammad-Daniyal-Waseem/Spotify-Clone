@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Creepster&family=DM+Serif+Display&family=Dancing+Script:wght@600&family=Libre+Baskerville:wght@700&family=Lobster&family=Roboto:ital,wght@0,400;1,500&family=Varela+Round&family=Viga&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&family=Creepster&family=DM+Serif+Display&family=Dancing+Script:wght@600&family=Libre+Baskerville:wght@700&family=Lobster&family=Roboto:ital,wght@0,400;1,500&family=Ubuntu&family=Viga&display=swap');
+
+body {
+  background-color: antiquewhite;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+nav{
+
+    font-family: 'Ubuntu','sans-serif';
+}
+
+.brand img{
+    height: 44px;
+    padding: 0px 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul{
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+    
+}
+
+.container{
+    min-height: 64vh;
+    
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 75%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+
+.bottom{
+    position: sticky;
+    height: 110px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    bottom: 0;
+}
+
+
+.icons{
+    margin-top: 16px;
+}
+
+.icons i{
+    cursor: pointer;
+     margin-left: 5px;
+}
+
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color:black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+    
+}
+
+.songItem img{
+    height: 43px;
+    margin: 0 20px;
+    border-radius: 35px;
+}
+
+.timestamp{
+    margin: 0 20px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+left: 10vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
